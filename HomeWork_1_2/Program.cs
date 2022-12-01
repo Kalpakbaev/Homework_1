@@ -1,0 +1,26 @@
+﻿int a = 2;
+int b = 3;
+int c = 7;
+int max1 = a;
+if(a > max1) max1 = a;
+if(b > max1) max1 = b;
+if(c > max1) max1 = c;
+Console.Write("max1 = ");
+Console.WriteLine(max1);
+int d = 44;
+int e = 5;
+int f = 78;
+ int max2 = d;
+if(d > max2) max2 = d;
+if (e > max2) max2 = e;
+if (f > max2) max2 = f;
+Console.WriteLine("max2 = " + max2);
+
+int g = 22;
+int r = 3;
+int s = 9;
+int max3 = g;
+if(g > max3) max3 = g;
+if(r > max3) max3 = r;
+if(s > max3) max3 = s;
+Console.Write("max3 = " + max3);
